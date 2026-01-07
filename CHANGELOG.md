@@ -2,6 +2,18 @@
 
 All notable changes to `lettermint-laravel` will be documented in this file.
 
+## 1.5.1 - 2026-01-07
+
+### What's Changed
+
+* chore(deps): bump actions/checkout from 3 to 6 by @dependabot[bot] in https://github.com/lettermint/lettermint-laravel/pull/12
+* chore(deps): bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/lettermint/lettermint-laravel/pull/10
+* chore(deps): bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/lettermint/lettermint-laravel/pull/6
+* chore: add Discord badge to README by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/15
+* fix: make SpamSymbol description nullable by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/16
+
+**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.5.0...1.5.1
+
 ## 1.5.0 - 2025-11-27
 
 ### What's Changed
