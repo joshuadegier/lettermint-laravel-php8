@@ -13,8 +13,33 @@ The official `lettermint/lettermint-laravel` package requires PHP 8.2+. This for
 
 ## Installation
 
+Since this package is not published on Packagist, you need to add the repository to your `composer.json`:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/joshuadegier/lettermint-laravel-php8"
+        }
+    ]
+}
+```
+
+Then require the package:
+
 ```bash
-composer require lettermint/lettermint-laravel-php8
+composer require lettermint/lettermint-laravel-php8:dev-main
+```
+
+Or add it directly to your `composer.json`:
+
+```json
+{
+    "require": {
+        "lettermint/lettermint-laravel-php8": "dev-main"
+    }
+}
 ```
 
 ## Documentation
