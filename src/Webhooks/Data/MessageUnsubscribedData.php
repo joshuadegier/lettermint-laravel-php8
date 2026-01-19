@@ -4,7 +4,7 @@ namespace Lettermint\Laravel\Webhooks\Data;
 
 use DateTimeImmutable;
 
-final readonly class MessageUnsubscribedData
+final class MessageUnsubscribedData
 {
     /**
      * @param  array<string, mixed>  $metadata

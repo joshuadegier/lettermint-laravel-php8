@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class MessageHardBouncedData
+final class MessageHardBouncedData
 {
     /**
      * @param  array<string, mixed>  $metadata

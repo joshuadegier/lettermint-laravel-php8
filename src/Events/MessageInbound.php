@@ -8,8 +8,8 @@ use Lettermint\Laravel\Webhooks\Data\WebhookEnvelope;
 final class MessageInbound extends LettermintWebhookEvent
 {
     public function __construct(
-        public readonly WebhookEnvelope $envelope,
-        public readonly MessageInboundData $data,
+        public WebhookEnvelope $envelope,
+        public MessageInboundData $data,
     ) {}
 
     public function getEnvelope(): WebhookEnvelope

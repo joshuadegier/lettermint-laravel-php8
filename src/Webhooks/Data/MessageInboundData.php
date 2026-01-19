@@ -4,7 +4,7 @@ namespace Lettermint\Laravel\Webhooks\Data;
 
 use DateTimeImmutable;
 
-final readonly class MessageInboundData
+final class MessageInboundData
 {
     /**
      * @param  array<InboundEmailAddress>  $to

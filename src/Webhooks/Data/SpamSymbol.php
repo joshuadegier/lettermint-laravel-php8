@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class SpamSymbol
+final class SpamSymbol
 {
     /**
      * @param  array<mixed>  $options

@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class EmailBody
+final class EmailBody
 {
     public function __construct(
         public ?string $text = null,

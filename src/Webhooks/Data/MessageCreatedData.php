@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class MessageCreatedData
+final class MessageCreatedData
 {
     /**
      * @param  array<string>  $to

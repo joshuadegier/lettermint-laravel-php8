@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class EmailAttachment
+final class EmailAttachment
 {
     public function __construct(
         public string $filename,

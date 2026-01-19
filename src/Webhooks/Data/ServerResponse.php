@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class ServerResponse
+final class ServerResponse
 {
     public function __construct(
         public int $statusCode,

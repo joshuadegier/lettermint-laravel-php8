@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class MessageSpamComplaintData
+final class MessageSpamComplaintData
 {
     /**
      * @param  array<string, mixed>  $metadata

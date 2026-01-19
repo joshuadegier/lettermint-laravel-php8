@@ -1,87 +1,18 @@
 # Changelog
 
-All notable changes to `lettermint-laravel` will be documented in this file.
+All notable changes to `lettermint-laravel-php8` will be documented in this file.
 
-## 1.5.1 - 2026-01-07
+## 1.5.2-php8 - Initial Fork
 
-### What's Changed
+This is a PHP 8.0+ compatible fork of [lettermint/lettermint-laravel](https://github.com/lettermint/lettermint-laravel) version 1.5.2.
 
-* chore(deps): bump actions/checkout from 3 to 6 by @dependabot[bot] in https://github.com/lettermint/lettermint-laravel/pull/12
-* chore(deps): bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/lettermint/lettermint-laravel/pull/10
-* chore(deps): bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/lettermint/lettermint-laravel/pull/6
-* chore: add Discord badge to README by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/15
-* fix: make SpamSymbol description nullable by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/16
+### Changes from upstream
 
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.5.0...1.5.1
+- Converted PHP 8.1 `enum WebhookEventType` to a class-based implementation
+- Removed PHP 8.2 `readonly class` declarations from all Data classes
+- Removed PHP 8.1 `readonly` property modifiers from Event classes
+- Lowered PHP requirement from `^8.2` to `^8.0`
+- Removed CI/CD workflows, test suite, and code formatting configuration
 
-## 1.5.0 - 2025-11-27
-
-### What's Changed
-
-* ci: update Discord release workflow to use new action by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/13
-* Add built-in webhook support  by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/14
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.4.0...1.5.0
-
-## 1.4.0 - 2025-11-16
-
-### What's Changed
-
-* feat: format and set Message-ID from Lettermint API by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/11
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.3.0...1.4.0
-
-## 1.3.0 - 2025-10-07
-
-### What's Changed
-
-* feat: add inline attachment support to Lettermint transport by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/9
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.2.0...1.3.0
-
-## v1.2.0 - 2025-08-28
-
-### What's Changed
-
-* feat: add tag and metadata support to Lettermint transport by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/8
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.1.1...1.2.0
-
-## 1.1.1 - 2025-06-28
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.1.0...1.1.1
-
-## 1.1.0 - 2025-06-28
-
-### What's Changed
-
-* chore(deps): bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot in https://github.com/lettermint/lettermint-laravel/pull/4
-* feat: add idempotency support to Lettermint transport by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/5
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.0.2...1.1.0
-
-## 1.0.2 - 2025-06-14
-
-### What's Changed
-
-* Feat/routes by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/3
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.0.1...1.0.2
-
-## 1.0.1 - 2025-06-14
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/1.0.0...1.0.1
-
-## 1.0.0 - 2025-06-14
-
-### What's Changed
-
-* chore(deps): bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot in https://github.com/lettermint/lettermint-laravel/pull/1
-* feat: add route ID support to Lettermint transport  by @bjarn in https://github.com/lettermint/lettermint-laravel/pull/2
-
-### New Contributors
-
-* @dependabot made their first contribution in https://github.com/lettermint/lettermint-laravel/pull/1
-* @bjarn made their first contribution in https://github.com/lettermint/lettermint-laravel/pull/2
-
-**Full Changelog**: https://github.com/lettermint/lettermint-laravel/compare/0.1.1...1.0.0
+For the full changelog of the upstream package, see:
+https://github.com/lettermint/lettermint-laravel/blob/main/CHANGELOG.md

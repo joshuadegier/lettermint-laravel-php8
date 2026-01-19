@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class WebhookTestData
+final class WebhookTestData
 {
     public function __construct(
         public string $message,

@@ -2,7 +2,7 @@
 
 namespace Lettermint\Laravel\Webhooks\Data;
 
-final readonly class EmailAddress
+final class EmailAddress
 {
     public function __construct(
         public string $email,

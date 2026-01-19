@@ -5,7 +5,7 @@ namespace Lettermint\Laravel\Webhooks\Data;
 use DateTimeImmutable;
 use Lettermint\Laravel\Webhooks\WebhookEventType;
 
-final readonly class WebhookEnvelope
+final class WebhookEnvelope
 {
     public function __construct(
         public string $id,
