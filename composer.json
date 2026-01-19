@@ -6,7 +6,7 @@
         "laravel",
         "lettermint-laravel"
     ],
-    "homepage": "https://github.com/lettermint/lettermint-laravel",
+    "homepage": "https://github.com/joshuadegier/lettermint-laravel-php8",
     "license": "MIT",
     "authors": [
         {
@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
         "illuminate/contracts": "^9.0 | ^10.0 | ^11.0 | ^12.0",
-        "lettermint/lettermint-php": "^1.5.0",
         "spatie/laravel-package-tools": "^1.12"
     },
     "autoload": {

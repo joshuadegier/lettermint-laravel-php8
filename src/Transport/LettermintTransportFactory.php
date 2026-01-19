@@ -3,7 +3,8 @@
 namespace Lettermint\Laravel\Transport;
 
 use Exception;
-use Lettermint\Endpoints\EmailEndpoint;
+use Lettermint\Laravel\Sdk\Endpoints\EmailEndpoint;
+use Lettermint\Laravel\Sdk\Lettermint;
 use LogicException;
 use Symfony\Component\Mailer\Envelope;
 use Symfony\Component\Mailer\Exception\TransportException;
@@ -35,7 +36,7 @@ class LettermintTransportFactory extends AbstractTransport
      * Create a new Lettermint transport instance.
      */
     public function __construct(
-        protected \Lettermint\Lettermint $lettermint,
+        protected Lettermint $lettermint,
         protected array $config = []
     ) {
         parent::__construct();

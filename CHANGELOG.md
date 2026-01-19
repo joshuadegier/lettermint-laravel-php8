@@ -8,6 +8,7 @@ This is a PHP 8.0+ compatible fork of [lettermint/lettermint-laravel](https://gi
 
 ### Changes from upstream
 
+- Embedded `lettermint/lettermint-php` SDK directly into the package (no external dependency)
 - Converted PHP 8.1 `enum WebhookEventType` to a class-based implementation
 - Removed PHP 8.2 `readonly class` declarations from all Data classes
 - Removed PHP 8.1 `readonly` property modifiers from Event classes

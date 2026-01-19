@@ -4,9 +4,9 @@ namespace Lettermint\Laravel\Webhooks;
 
 use Closure;
 use Illuminate\Http\Request;
-use Lettermint\Exceptions\WebhookVerificationException;
+use Lettermint\Laravel\Sdk\Exceptions\WebhookVerificationException;
+use Lettermint\Laravel\Sdk\Webhook;
 use Lettermint\Laravel\Webhooks\Exceptions\WebhookSecretNotFoundException;
-use Lettermint\Webhook;
 use Symfony\Component\HttpFoundation\Response;
 
 class VerifyWebhookSignature
